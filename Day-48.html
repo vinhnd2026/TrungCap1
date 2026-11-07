@@ -637,6 +637,7 @@ img, svg { max-width: 100%; }
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('何必去学习？', 0.88)">🔊</button> <span class="hide-ruby"><ruby>何<rt>Hé</rt></ruby><ruby>必<rt>bì</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>习<rt>xí</rt></ruby>？</span> <span class="hint">(Việc gì phải đi học?)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('何必去买东西？', 0.88)">🔊</button> <span class="hide-ruby"><ruby>何<rt>Hé</rt></ruby><ruby>必<rt>bì</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>买<rt>mǎi</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>西<rt>xi</rt></ruby>？</span> <span class="hint">(Việc gì phải đi mua đồ?)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('何必去晨跑？', 0.88)">🔊</button> <span class="hide-ruby"><ruby>何<rt>Hé</rt></ruby><ruby>必<rt>bì</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>晨<rt>chén</rt></ruby><ruby>跑<rt>pǎo</rt></ruby>？</span> <span class="hint">(Việc gì phải đi chạy bộ buổi sáng?)</span></div>
+
 <div class="q-item" id="gram-1">
 <div><b>1. 何必：việc gì phải…:</b></div>
 <div class="mc-options">
@@ -669,22 +670,22 @@ img, svg { max-width: 100%; }
 <div class="card">
 <h2>🧩 Bài 6: Sắp xếp câu (连词成句) <span class="badge">Tư duy trật tự từ</span></h2>
 <div class="sub" style="margin-bottom:8px;">Chạm vào từng từ ở khung xám để ghép thành câu hoàn chỉnh:</div>
-<div class="scramble-box" id="scr-1" data-target="博物馆有古董，很漂亮。">
-<div><b>Câu 1:</b> Bảo tàng có đồ cổ, rất đẹp.</div>
+<div class="scramble-box" id="scr-1" data-target="博物馆有古董，很漂亮，我很喜欢，画展也很丰富。">
+<div><b>Câu 1:</b> Bảo tàng có đồ cổ, rất đẹp, tôi rất thích, triển lãm tranh cũng rất phong phú.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="古董|很|博物馆|，|。|漂亮|有"></div>
+<div class="word-bank" data-words="。|，|我|喜欢|有|丰富|博物馆|很|很|也|很|古董|，|，|画展|漂亮"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-2" data-target="你何必担心呢，我很高兴。">
-<div><b>Câu 2:</b> Bạn hà tất lo lắng, tôi rất vui.</div>
+<div class="scramble-box" id="scr-2" data-target="你何必担心呢？我很高兴，黄昏的时候，我去看画展。">
+<div><b>Câu 2:</b> Bạn hà tất lo lắng? Tôi rất vui, lúc hoàng hôn, tôi đi xem triển lãm tranh.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="我|。|高兴|很|何必|担心|你|，|呢"></div>
+<div class="word-bank" data-words="高兴|，|时候|呢|黄昏|？|很|你|我|看|，|何必|去|画展|。|的|我|担心"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-3" data-target="黄昏的时候，我去看画展。">
-<div><b>Câu 3:</b> Lúc hoàng hôn, tôi đi xem triển lãm tranh.</div>
+<div class="scramble-box" id="scr-3" data-target="黄昏的时候，我去公园看风景，感觉很好，环境也很好。">
+<div><b>Câu 3:</b> Lúc hoàng hôn, tôi đi công viên ngắm phong cảnh, cảm thấy rất tốt, môi trường cũng rất tốt.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="看|黄昏|，|。|画展|去|我|时候|的"></div>
+<div class="word-bank" data-words="。|也|时候|很|风景|感觉|很|的|环境|好|，|看|黄昏|，|公园|去|，|我|好"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 </div>
@@ -695,26 +696,25 @@ img, svg { max-width: 100%; }
 <div class="tts-voice-row"><span class="hint"><b>Giọng đọc:</b></span> <select class="tts-voice-select" id="tts-voice-read" aria-label="Chọn giọng đọc tiếng Trung"></select> <button class="tts-btn" type="button" onclick="previewCommonVoice()">🔊 Nghe thử</button></div><div class="hint" id="tts-voice-note-read">Đang kiểm tra giọng đọc trên thiết bị…</div>
 <div class="reading-zh hide-ruby">
 <section class="read-para">
-<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 0)">🔊 Nghe đoạn này</button></div>
-<p class="read-para-text"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby>，<ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liang</rt></ruby>。 <ruby>画<rt>Huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>丰<rt>fēng</rt></ruby><ruby>富<rt>fù</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huān</rt></ruby>。 <ruby>黄<rt>Huáng</rt></ruby><ruby>昏<rt>hūn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>风<rt>fēng</rt></ruby><ruby>景<rt>jǐng</rt></ruby>。 <ruby>公<rt>Gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>环<rt>huán</rt></ruby><ruby>境<rt>jìng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>空<rt>kōng</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>新<rt>xīn</rt></ruby><ruby>鲜<rt>xiān</rt></ruby>。</p>
+<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 3)">🔊 Nghe đoạn này</button></div>
+<p class="read-para-text"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby>，<ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liang</rt></ruby>。 <ruby>画<rt>Huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>看<rt>kàn</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huān</rt></ruby>。 <ruby>黄<rt>Huáng</rt></ruby><ruby>昏<rt>hūn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>风<rt>fēng</rt></ruby><ruby>景<rt>jǐng</rt></ruby>。 <ruby>公<rt>Gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>环<rt>huán</rt></ruby><ruby>境<rt>jìng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>空<rt>kōng</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>新<rt>xīn</rt></ruby><ruby>鲜<rt>xiān</rt></ruby>。</p>
 </section>
 <section class="read-para">
-<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 1, 1)">🔊 Nghe đoạn này</button></div>
-<p class="read-para-text"><ruby>总<rt>Zǒng</rt></ruby><ruby>之<rt>zhī</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>安<rt>ān</rt></ruby><ruby>排<rt>pái</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>心<rt>xīn</rt></ruby>。 <ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby>，<ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>漂<rt>piāo</rt></ruby><ruby>亮<rt>liàng</rt></ruby>，<ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>丰<rt>fēng</rt></ruby><ruby>富<rt>fù</rt></ruby>。 <ruby>黄<rt>Huáng</rt></ruby><ruby>昏<rt>hūn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>风<rt>fēng</rt></ruby><ruby>景<rt>jǐng</rt></ruby>，<ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>环<rt>huán</rt></ruby><ruby>境<rt>jìng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。 <ruby>总<rt>Zǒng</rt></ruby><ruby>之<rt>zhī</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>安<rt>ān</rt></ruby><ruby>排<rt>pái</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xīng</rt></ruby>。</p>
+<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 4, 7)">🔊 Nghe đoạn này</button></div>
+<p class="read-para-text"><ruby>总<rt>Zǒng</rt></ruby><ruby>之<rt>zhī</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>安<rt>ān</rt></ruby><ruby>排<rt>pái</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>心<rt>xīn</rt></ruby>。 <ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby>，<ruby>画<rt>huà</rt></ruby><ruby>展<rt>zhǎn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liàng</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>长<rt>zhǎng</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>间<rt>jiān</rt></ruby>。 <ruby>黄<rt>Huáng</rt></ruby><ruby>昏<rt>hūn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hòu</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>风<rt>fēng</rt></ruby><ruby>景<rt>jǐng</rt></ruby>，<ruby>风<rt>fēng</rt></ruby><ruby>景<rt>jǐng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huān</rt></ruby>。 <ruby>总<rt>Zǒng</rt></ruby><ruby>之<rt>zhī</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>安<rt>ān</rt></ruby><ruby>排<rt>pái</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>思<rt>sī</rt></ruby>。</p>
 </section>
 </div>
-<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["今天我去看画展，画展很漂亮。画展很丰富，我很喜欢。黄昏的时候，我去公园看风景。公园里的环境很好，空气很新鲜。", "总之，今天的安排很好，我很开心。今天我去看画展，画展很漂亮，画展很丰富。黄昏的时候，我去公园看风景，公园里的环境很好。总之，今天的安排很好，我很高兴。"];</script>
+<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["今天我去看画展，画展很漂亮。", "画展很好看，我很喜欢。", "黄昏的时候，我去公园看风景。", "公园里的环境很好，空气很新鲜。", "总之，今天的安排很好，我很开心。", "今天我去看画展，画展很漂亮，我看了很长时间。", "黄昏的时候，我去公园看风景，风景很好，我很喜欢。", "总之，今天的安排很好，我觉得很有意思。"];</script>
 <div class="reading-Controls">
-<button class="tts-btn" onclick="playChunked('read', 0.88)">▶️ Nghe đoạn văn</button>
-<button class="tts-btn" id="chunk-pause-read" onclick="toggleChunkPause('read')">⏸️ Tạm dừng</button>
+<button class="tts-btn dlg-play-btn" id="chunk-play-read" onclick="toggleChunkPlay('read')" title="Nghe / Tạm dừng">▶️</button>
 <button class="tts-btn" onclick="restartChunked('read')">↺ Nghe lại từ đầu</button>
 <button class="tts-btn" onclick="playChunked('read', 0.6)">🐢 Nghe chậm</button>
 <button class="btn-sm" onclick="document.getElementById('read-help').classList.toggle('show')">👁️ Ẩn/Hiện Dịch nghĩa</button>
 <button class="btn-sm" onclick="document.querySelector('.reading-zh').classList.toggle('hide-ruby')">🔤 Ẩn/Hiện Pinyin trên chữ</button>
 </div>
 <div class="reading-help" id="read-help">
-<div class="read-para-trans"><p>Hôm nay tôi đi xem triển lãm tranh, triển lãm tranh rất đẹp. Triển lãm tranh rất phong phú, tôi rất thích. Lúc hoàng hôn, tôi đi công viên ngắm phong cảnh. Môi trường trong công viên rất tốt, không khí rất trong lành.</p></div>
-<div class="read-para-trans"><p>Tóm lại, sự sắp xếp hôm nay rất tốt, tôi rất vui. Hôm nay tôi đi xem triển lãm tranh, triển lãm tranh rất đẹp, triển lãm tranh rất phong phú. Lúc hoàng hôn, tôi đến công viên ngắm phong cảnh, môi trường trong công viên rất tốt. Tóm lại, lịch hôm nay rất tốt, tôi rất vui.</p></div>
+<div class="read-para-trans"><p>Hôm nay tôi đi xem triển lãm tranh, triển lãm tranh rất đẹp. Triển lãm tranh rất đẹp, tôi rất thích. Lúc hoàng hôn, tôi đi công viên ngắm phong cảnh. Môi trường trong công viên rất tốt, không khí rất trong lành.</p></div>
+<div class="read-para-trans"><p>Tóm lại, sự sắp xếp hôm nay rất tốt, tôi rất vui. Hôm nay tôi đi xem triển lãm tranh, triển lãm tranh rất đẹp, tôi xem rất lâu. Lúc hoàng hôn, tôi đi công viên ngắm phong cảnh, phong cảnh rất đẹp, tôi rất thích. Tóm lại, sự sắp xếp hôm nay rất tốt, tôi thấy rất thú vị.</p></div>
 </div>
 </div>
 <div class="q-item read-q" id="read-1">
@@ -856,7 +856,7 @@ img, svg { max-width: 100%; }
 <p><b>Bài 3 (Ghép cặp):</b> 古董 = gǔdǒng · 何必 = hébì · 画展 = huàzhǎn · 环境 = huánjìng · 黄昏 = huánghūn</p>
 <p><b>Bài 4 (Ngữ pháp):</b> 1. A — 何必担心？ &nbsp;|&nbsp; 2. A — 何必去学校？</p>
 <p><b>Bài 5 (Đoạn văn):</b> 古董 → 何必 → 画展 → 环境 → 黄昏</p>
-<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 博物馆有古董，很漂亮。<br>2. 你何必担心呢，我很高兴。<br>3. 黄昏的时候，我去看画展。</p>
+<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 博物馆有古董，很漂亮，我很喜欢，画展也很丰富。<br>2. 你何必担心呢？我很高兴，黄昏的时候，我去看画展。<br>3. 黄昏的时候，我去公园看风景，感觉很好，环境也很好。</p>
 <p><b>Bài 7 (Đọc hiểu):</b> 1. B — 画展 &nbsp;|&nbsp; 2. B — 公园 &nbsp;|&nbsp; 3. B — 很好</p>
 <p><b>Bài 8 (Nghe hội thoại):</b> 1. C — 博物馆 &nbsp; 2. A — 不去，因为这里有一个画展 &nbsp; 3. B — 喜欢，因为她觉得很好 &nbsp; 4. D — 去博物馆看画展</p>
 </details>
@@ -951,15 +951,15 @@ var ITEM_INFO = {
   ],
   "scr-1": [
     "Sắp xếp câu 1",
-    "博物馆有古董，很漂亮。"
+    "博物馆有古董，很漂亮，我很喜欢，画展也很丰富。"
   ],
   "scr-2": [
     "Sắp xếp câu 2",
-    "你何必担心呢，我很高兴。"
+    "你何必担心呢？我很高兴，黄昏的时候，我去看画展。"
   ],
   "scr-3": [
     "Sắp xếp câu 3",
-    "黄昏的时候，我去看画展。"
+    "黄昏的时候，我去公园看风景，感觉很好，环境也很好。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
@@ -3753,6 +3753,7 @@ function dlgSpeak(i, onDone) {
 function playDlgAllFrom(start) {
   if (!('speechSynthesis' in window)) return;
   stopDlg();
+  if (typeof stopChunkedIfPlaying === 'function') { try { stopChunkedIfPlaying(); } catch (e) {} }
   dlgPlaying = true;
   dlgPaused = false;
   dlgIdx = (typeof start === 'number') ? start : 0;
@@ -3795,7 +3796,18 @@ function toggleDlgPlay() {
 }
 function restartDlg() { playDlgAll(); updateDlgPlayBtn(); }
 function stopDlg() { dlgGen++; dlgPlaying = false; dlgPaused = false; if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); window.speechSynthesis.resume(); } updateDlgPlayBtn(); }
-function playDlgLine(i) { stopDlg(); dlgSpeak(i); }
+// Chi dung khi player khac bat dau: chi dung hoi thoai khi no DANG DOC that,
+// khong xoa vi tri da tam dung (an pause roi bam player khac, bam lai ▶️
+// van doc tiep tu cau dang do thay vi doc lai tu dau).
+function stopDlgIfPlaying() { if (dlgPlaying && !dlgPaused) stopDlg(); }
+function playDlgLine(i) {
+  var wasActive = dlgPlaying || dlgPaused;
+  stopDlg();
+  // Dang nghe do thi bam nghe tung cau: giu vi tri tiep tuc o cau vua bam
+  // (bam ▶️ se doc tiep tu cau do). Chua nghe gi thi khong doi vi tri.
+  if (wasActive) { dlgIdx = i; dlgPaused = true; updateDlgPlayBtn(); }
+  dlgSpeak(i);
+}
 function previewDlgVoice(spId) {
   for (var i = 0; i < DLG_LINES.length; i++)
     if (DLG_LINES[i].sp === spId) { playDlgLine(i); return; }
@@ -3925,12 +3937,17 @@ function stopChunked(id) {
     for (var i = 0; i < btns.length; i++) btns[i].textContent = '⏸️ Tạm dừng';
   }
 }
+// Chỉ dừng khi player khác bắt đầu: chỉ dừng player chunked khi nó ĐANG ĐỌC
+// thật, không xóa vị trí đã tạm dừng (giống stopDlgIfPlaying).
+function stopChunkedIfPlaying() {
+  if (chunkCur && chunkCur.playing && !chunkCur.paused) stopChunked();
+}
 function playChunked(id, rate, start, end) {
   if (!('speechSynthesis' in window)) return;
   var chunks = chunkChunks(id);
   if (!chunks.length) return;
   stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   rate = (typeof chunkRate !== 'undefined' && chunkRate[id]) || rate || 0.88;
   start = (typeof start === 'number') ? start : 0;
   end = (typeof end === 'number') ? end : chunks.length - 1;
@@ -4043,8 +4060,8 @@ function toggleChunkHelp(helpId, btnId) {
 // giọng chung đã chọn; đồng thời dừng mọi chuỗi chunk đang đọc dở.
 function speakRate(text, rate) {
   if (!('speechSynthesis' in window)) return;
-  stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  stopChunkedIfPlaying();
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   window.speechSynthesis.cancel();
   var u = new SpeechSynthesisUtterance(text);
   u.lang = 'zh-CN'; u.rate = rate || 0.88;
