@@ -678,6 +678,7 @@ img, svg { max-width: 100%; }
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('家有火锅。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>家<rt>Jiā</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>火<rt>huǒ</rt></ruby><ruby>锅<rt>guō</rt></ruby>。</span> <span class="hint">(Ở nhà có lẩu.)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('学校有西红柿。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>学<rt>Xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby>。</span> <span class="hint">(Ở trường có cà chua.)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('学校有孩子。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>学<rt>Xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>孩<rt>hái</rt></ruby><ruby>子<rt>zi</rt></ruby>。</span> <span class="hint">(Ở trường có trẻ con.)</span></div>
+
 <div class="q-item" id="gram-1">
 <div><b>1. Điền từ đúng vào chỗ trống:</b> 学校<span class="gram-blank">......</span>学生。</div>
 <div class="mc-options">
@@ -712,22 +713,22 @@ img, svg { max-width: 100%; }
 <div class="card">
 <h2>🧩 Bài 6: Sắp xếp câu (连词成句) <span class="badge">Tư duy trật tự từ</span></h2>
 <div class="sub" style="margin-bottom:8px;">Chạm vào từng từ ở khung xám để ghép thành câu hoàn chỉnh:</div>
-<div class="scramble-box" id="scr-1" data-target="妈妈下厨了，很高兴。">
-<div><b>Câu 1:</b> Mẹ vào bếp rồi, rất vui.</div>
+<div class="scramble-box" id="scr-1" data-target="我们家有西红柿和小麦，妈妈下厨做了西红柿炒蛋。">
+<div><b>Câu 1:</b> Nhà tôi có cà chua và lúa mì, mẹ vào bếp làm món cà chua xào trứng.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="很|。|下厨|了|，|妈妈|高兴"></div>
+<div class="word-bank" data-words="了|炒|下厨|有|和|蛋|。|做|家|西红柿|妈妈|小麦|，|我们|西红柿"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-2" data-target="我羡慕妈妈做的西红柿炒蛋。">
-<div><b>Câu 2:</b> Tôi ngưỡng mộ món cà chua xào trứng mẹ làm.</div>
+<div class="scramble-box" id="scr-2" data-target="我很羡慕妈妈，因为妈妈下厨做的西红柿炒蛋很好吃。">
+<div><b>Câu 2:</b> Tôi rất ngưỡng mộ mẹ, vì món cà chua xào trứng mẹ vào bếp làm rất ngon.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="蛋|炒|。|妈妈|的|我|西红柿|做|羡慕"></div>
+<div class="word-bank" data-words="羡慕|，|的|因为|很|下厨|。|妈妈|我|炒|很|西红柿|做|蛋|妈妈|好吃"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-3" data-target="西红柿和小麦都是好吃的东西。">
-<div><b>Câu 3:</b> Cà chua và lúa mì đều là những thứ ngon.</div>
+<div class="scramble-box" id="scr-3" data-target="妈妈下厨的时候，我在旁边看，觉得西红柿炒蛋很好吃。">
+<div><b>Câu 3:</b> Lúc mẹ vào bếp, tôi đứng bên cạnh xem, thấy món cà chua xào trứng rất ngon.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="。|和|小麦|西红柿|好吃|是|的|都|东西"></div>
+<div class="word-bank" data-words="西红柿|时候|蛋|的|在|妈妈|炒|看|好吃|觉得|旁|，|我|很|下厨|，|。|边"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 </div>
@@ -738,21 +739,20 @@ img, svg { max-width: 100%; }
 <div class="tts-voice-row"><span class="hint"><b>Giọng đọc:</b></span> <select class="tts-voice-select" id="tts-voice-read" aria-label="Chọn giọng đọc tiếng Trung"></select> <button class="tts-btn" type="button" onclick="previewCommonVoice()">🔊 Nghe thử</button></div><div class="hint" id="tts-voice-note-read">Đang kiểm tra giọng đọc trên thiết bị…</div>
 <div class="reading-zh hide-ruby">
 <section class="read-para">
-<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 0)">🔊 Nghe đoạn này</button></div>
-<p class="read-para-text"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>妈<rt>mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>厨<rt>chú</rt></ruby><ruby>做<rt>zuò</rt></ruby><ruby>饭<rt>fàn</rt></ruby>。 <ruby>妈<rt>Mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>蛋<rt>dàn</rt></ruby>。 <ruby>西<rt>Xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>蛋<rt>dàn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吃<rt>chī</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>羡<rt>xiàn</rt></ruby><ruby>慕<rt>mù</rt></ruby><ruby>妈<rt>mā</rt></ruby><ruby>妈<rt>ma</rt></ruby>。 <ruby>妈<rt>Mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>说<rt>shuō</rt></ruby>，<ruby>小<rt>xiǎo</rt></ruby><ruby>麦<rt>mài</rt></ruby><ruby>和<rt>hé</rt></ruby><ruby>水<rt>shuǐ</rt></ruby><ruby>稻<rt>dào</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吃<rt>chī</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>西<rt>xi</rt></ruby>。 <ruby>我<rt>Wǒ</rt></ruby><ruby>也<rt>yě</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>厨<rt>chú</rt></ruby>，<ruby>做<rt>zuò</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>蛋<rt>dàn</rt></ruby>。</p>
+<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 4)">🔊 Nghe đoạn này</button></div>
+<p class="read-para-text"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>妈<rt>mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>厨<rt>chú</rt></ruby><ruby>做<rt>zuò</rt></ruby><ruby>饭<rt>fàn</rt></ruby>。 <ruby>妈<rt>Mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>蛋<rt>dàn</rt></ruby>。 <ruby>西<rt>Xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>蛋<rt>dàn</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吃<rt>chī</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>羡<rt>xiàn</rt></ruby><ruby>慕<rt>mù</rt></ruby><ruby>妈<rt>mā</rt></ruby><ruby>妈<rt>ma</rt></ruby>。 <ruby>妈<rt>Mā</rt></ruby><ruby>妈<rt>mā</rt></ruby><ruby>说<rt>shuō</rt></ruby>，<ruby>小<rt>xiǎo</rt></ruby><ruby>麦<rt>mài</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>做<rt>zuò</rt></ruby><ruby>面<rt>miàn</rt></ruby>，<ruby>水<rt>shuǐ</rt></ruby><ruby>稻<rt>dào</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>做<rt>zuò</rt></ruby><ruby>饭<rt>fàn</rt></ruby>。 <ruby>我<rt>Wǒ</rt></ruby><ruby>也<rt>yě</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>厨<rt>chú</rt></ruby>，<ruby>做<rt>zuò</rt></ruby><ruby>西<rt>xī</rt></ruby><ruby>红<rt>hóng</rt></ruby><ruby>柿<rt>shì</rt></ruby><ruby>炒<rt>chǎo</rt></ruby><ruby>蛋<rt>dàn</rt></ruby>。</p>
 </section>
 </div>
-<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["今天妈妈下厨做饭。妈妈炒了西红柿炒蛋。西红柿炒蛋很好吃，我很羡慕妈妈。妈妈说，小麦和水稻都是好吃的东西。我也想下厨，做西红柿炒蛋。"];</script>
+<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["今天妈妈下厨做饭。", "妈妈炒了西红柿炒蛋。", "西红柿炒蛋很好吃，我很羡慕妈妈。", "妈妈说，小麦可以做面，水稻可以做饭。", "我也想下厨，做西红柿炒蛋。"];</script>
 <div class="reading-Controls">
-<button class="tts-btn" onclick="playChunked('read', 0.88)">▶️ Nghe đoạn văn</button>
-<button class="tts-btn" id="chunk-pause-read" onclick="toggleChunkPause('read')">⏸️ Tạm dừng</button>
+<button class="tts-btn dlg-play-btn" id="chunk-play-read" onclick="toggleChunkPlay('read')" title="Nghe / Tạm dừng">▶️</button>
 <button class="tts-btn" onclick="restartChunked('read')">↺ Nghe lại từ đầu</button>
 <button class="tts-btn" onclick="playChunked('read', 0.6)">🐢 Nghe chậm</button>
 <button class="btn-sm" onclick="document.getElementById('read-help').classList.toggle('show')">👁️ Ẩn/Hiện Dịch nghĩa</button>
 <button class="btn-sm" onclick="document.querySelector('.reading-zh').classList.toggle('hide-ruby')">🔤 Ẩn/Hiện Pinyin trên chữ</button>
 </div>
 <div class="reading-help" id="read-help">
-<div class="read-para-trans"><p>Hôm nay mẹ vào bếp nấu cơm. Mẹ xào cà chua xào trứng. Cà chua xào trứng rất ngon, tôi rất ngưỡng mộ mẹ. Mẹ nói, lúa mì và lúa nước đều là những thứ ngon. Tôi cũng muốn vào bếp, làm cà chua xào trứng.</p></div>
+<div class="read-para-trans"><p>Hôm nay mẹ vào bếp nấu cơm. Mẹ xào cà chua xào trứng. Cà chua xào trứng rất ngon, tôi rất ngưỡng mộ mẹ. Mẹ nói, lúa mì có thể làm mì, lúa nước có thể nấu cơm. Tôi cũng muốn vào bếp, làm cà chua xào trứng.</p></div>
 </div>
 </div>
 <div class="q-item read-q" id="read-1">
@@ -889,7 +889,7 @@ img, svg { max-width: 100%; }
 <p><b>Bài 3 (Ghép cặp):</b> 西红柿 = xīhóngshì · 西红柿炒蛋 = xīhóngshì-chǎodàn · 下厨 = xiàchú · 羡慕 = xiànmù · 小麦 = xiǎomài</p>
 <p><b>Bài 4 (Ngữ pháp):</b> 1. C — 有 &nbsp;|&nbsp; 2. A — 学校有学生。</p>
 <p><b>Bài 5 (Đoạn văn):</b> 西红柿 → 西红柿炒蛋 → 下厨 → 羡慕 → 小麦</p>
-<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 妈妈下厨了，很高兴。<br>2. 我羡慕妈妈做的西红柿炒蛋。<br>3. 西红柿和小麦都是好吃的东西。</p>
+<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 我们家有西红柿和小麦，妈妈下厨做了西红柿炒蛋。<br>2. 我很羡慕妈妈，因为妈妈下厨做的西红柿炒蛋很好吃。<br>3. 妈妈下厨的时候，我在旁边看，觉得西红柿炒蛋很好吃。</p>
 <p><b>Bài 7 (Đọc hiểu):</b> 1. C — 妈妈 &nbsp;|&nbsp; 2. A — 西红柿炒蛋 &nbsp;|&nbsp; 3. B — 妈妈</p>
 <p><b>Bài 8 (Nghe hội thoại):</b> 1. A — 下厨 &nbsp; 2. D — 因为小明的妈妈下厨 &nbsp; 3. B — 做西红柿炒蛋 &nbsp; 4. C — 喜欢</p>
 </details>
@@ -984,15 +984,15 @@ var ITEM_INFO = {
   ],
   "scr-1": [
     "Sắp xếp câu 1",
-    "妈妈下厨了，很高兴。"
+    "我们家有西红柿和小麦，妈妈下厨做了西红柿炒蛋。"
   ],
   "scr-2": [
     "Sắp xếp câu 2",
-    "我羡慕妈妈做的西红柿炒蛋。"
+    "我很羡慕妈妈，因为妈妈下厨做的西红柿炒蛋很好吃。"
   ],
   "scr-3": [
     "Sắp xếp câu 3",
-    "西红柿和小麦都是好吃的东西。"
+    "妈妈下厨的时候，我在旁边看，觉得西红柿炒蛋很好吃。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
@@ -3786,6 +3786,7 @@ function dlgSpeak(i, onDone) {
 function playDlgAllFrom(start) {
   if (!('speechSynthesis' in window)) return;
   stopDlg();
+  if (typeof stopChunkedIfPlaying === 'function') { try { stopChunkedIfPlaying(); } catch (e) {} }
   dlgPlaying = true;
   dlgPaused = false;
   dlgIdx = (typeof start === 'number') ? start : 0;
@@ -3828,7 +3829,18 @@ function toggleDlgPlay() {
 }
 function restartDlg() { playDlgAll(); updateDlgPlayBtn(); }
 function stopDlg() { dlgGen++; dlgPlaying = false; dlgPaused = false; if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); window.speechSynthesis.resume(); } updateDlgPlayBtn(); }
-function playDlgLine(i) { stopDlg(); dlgSpeak(i); }
+// Chi dung khi player khac bat dau: chi dung hoi thoai khi no DANG DOC that,
+// khong xoa vi tri da tam dung (an pause roi bam player khac, bam lai ▶️
+// van doc tiep tu cau dang do thay vi doc lai tu dau).
+function stopDlgIfPlaying() { if (dlgPlaying && !dlgPaused) stopDlg(); }
+function playDlgLine(i) {
+  var wasActive = dlgPlaying || dlgPaused;
+  stopDlg();
+  // Dang nghe do thi bam nghe tung cau: giu vi tri tiep tuc o cau vua bam
+  // (bam ▶️ se doc tiep tu cau do). Chua nghe gi thi khong doi vi tri.
+  if (wasActive) { dlgIdx = i; dlgPaused = true; updateDlgPlayBtn(); }
+  dlgSpeak(i);
+}
 function previewDlgVoice(spId) {
   for (var i = 0; i < DLG_LINES.length; i++)
     if (DLG_LINES[i].sp === spId) { playDlgLine(i); return; }
@@ -3958,12 +3970,17 @@ function stopChunked(id) {
     for (var i = 0; i < btns.length; i++) btns[i].textContent = '⏸️ Tạm dừng';
   }
 }
+// Chỉ dừng khi player khác bắt đầu: chỉ dừng player chunked khi nó ĐANG ĐỌC
+// thật, không xóa vị trí đã tạm dừng (giống stopDlgIfPlaying).
+function stopChunkedIfPlaying() {
+  if (chunkCur && chunkCur.playing && !chunkCur.paused) stopChunked();
+}
 function playChunked(id, rate, start, end) {
   if (!('speechSynthesis' in window)) return;
   var chunks = chunkChunks(id);
   if (!chunks.length) return;
   stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   rate = (typeof chunkRate !== 'undefined' && chunkRate[id]) || rate || 0.88;
   start = (typeof start === 'number') ? start : 0;
   end = (typeof end === 'number') ? end : chunks.length - 1;
@@ -4076,8 +4093,8 @@ function toggleChunkHelp(helpId, btnId) {
 // giọng chung đã chọn; đồng thời dừng mọi chuỗi chunk đang đọc dở.
 function speakRate(text, rate) {
   if (!('speechSynthesis' in window)) return;
-  stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  stopChunkedIfPlaying();
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   window.speechSynthesis.cancel();
   var u = new SpeechSynthesisUtterance(text);
   u.lang = 'zh-CN'; u.rate = rate || 0.88;

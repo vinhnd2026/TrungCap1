@@ -647,6 +647,7 @@ img, svg { max-width: 100%; }
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('绿豆汤清淡极了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>绿<rt>Lǜ</rt></ruby><ruby>豆<rt>dòu</rt></ruby><ruby>汤<rt>tāng</rt></ruby><ruby>清<rt>qīng</rt></ruby><ruby>淡<rt>dàn</rt></ruby><ruby>极<rt>jí</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Chè đậu xanh nhạt lắm.)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('毛豆辣极了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>毛<rt>Máo</rt></ruby><ruby>豆<rt>dòu</rt></ruby><ruby>辣<rt>là</rt></ruby><ruby>极<rt>jí</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Đậu lông cay lắm.)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('他高兴极了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby><ruby>极<rt>jí</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Anh ấy vui lắm.)</span></div>
+
 <div class="q-item" id="gram-1">
 <div><b>1. Adj + 极了 — mức độ cao nhất:</b></div>
 <div class="mc-options">
@@ -679,22 +680,22 @@ img, svg { max-width: 100%; }
 <div class="card">
 <h2>🧩 Bài 6: Sắp xếp câu (连词成句) <span class="badge">Tư duy trật tự từ</span></h2>
 <div class="sub" style="margin-bottom:8px;">Chạm vào từng từ ở khung xám để ghép thành câu hoàn chỉnh:</div>
-<div class="scramble-box" id="scr-1" data-target="狐狸参加了婚礼，很高兴。">
-<div><b>Câu 1:</b> Con cáo tham dự đám cưới, rất vui.</div>
+<div class="scramble-box" id="scr-1" data-target="狐狸参加了婚礼，很高兴，婚纱很漂亮极了。">
+<div><b>Câu 1:</b> Con cáo tham dự đám cưới, rất vui, váy cưới đẹp vô cùng.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="。|了|很|高兴|参加|狐狸|婚礼|，"></div>
+<div class="word-bank" data-words="很|了|婚礼|极|漂亮|很|。|婚纱|参加|高兴|了|狐狸|，|，"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-2" data-target="她的婚纱很漂亮，我很羡慕她。">
-<div><b>Câu 2:</b> Váy cưới của cô ấy rất đẹp, tôi rất ngưỡng mộ cô ấy.</div>
+<div class="scramble-box" id="scr-2" data-target="妈妈记载了婚礼，婚纱很漂亮，我很羡慕她。">
+<div><b>Câu 2:</b> Mẹ ghi chép đám cưới, váy cưới rất đẹp, tôi rất ngưỡng mộ cô ấy.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="她|很|我|。|漂亮|很|婚纱|羡慕|的|，|她"></div>
+<div class="word-bank" data-words="婚纱|记载|很|，|羡慕|婚礼|妈妈|很|漂亮|，|她|我|了|。"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-3" data-target="他记载了狐狸和婚纱。">
-<div><b>Câu 3:</b> Anh ấy ghi chép con cáo và váy cưới.</div>
+<div class="scramble-box" id="scr-3" data-target="狐狸很聪明，可是大家不喜欢它，成语“狐假虎威”说的就是它。">
+<div><b>Câu 3:</b> Con cáo rất thông minh, nhưng mọi người không thích nó, thành ngữ &quot;cáo mượn oai hùm&quot; nói chính là nó.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="记载|和|了|婚纱|。|他|狐狸"></div>
+<div class="word-bank" data-words="它|不|可是|喜欢|狐假虎威|，|狐狸|说|是|聪明|它|“|”|很|，|。|成语|就|的|大家"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 </div>
@@ -705,14 +706,13 @@ img, svg { max-width: 100%; }
 <div class="tts-voice-row"><span class="hint"><b>Giọng đọc:</b></span> <select class="tts-voice-select" id="tts-voice-read" aria-label="Chọn giọng đọc tiếng Trung"></select> <button class="tts-btn" type="button" onclick="previewCommonVoice()">🔊 Nghe thử</button></div><div class="hint" id="tts-voice-note-read">Đang kiểm tra giọng đọc trên thiết bị…</div>
 <div class="reading-zh hide-ruby">
 <section class="read-para">
-<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 0)">🔊 Nghe đoạn này</button></div>
+<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 4)">🔊 Nghe đoạn này</button></div>
 <p class="read-para-text"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>成<rt>chéng</rt></ruby><ruby>语<rt>yǔ</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>听<rt>tīng</rt></ruby>。 <ruby>成<rt>Chéng</rt></ruby><ruby>语<rt>yǔ</rt></ruby>“<ruby>狐<rt>hú</rt></ruby><ruby>假<rt>jiǎ</rt></ruby><ruby>虎<rt>hǔ</rt></ruby><ruby>威<rt>wēi</rt></ruby>”<ruby>说<rt>shuō</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>狐<rt>hú</rt></ruby><ruby>狸<rt>lí</rt></ruby>。 <ruby>狐<rt>Hú</rt></ruby><ruby>狸<rt>lí</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>聪<rt>cōng</rt></ruby><ruby>明<rt>míng</rt></ruby>，<ruby>可<rt>kě</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huān</rt></ruby><ruby>它<rt>tā</rt></ruby>。 <ruby>妈<rt>Mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>参<rt>cān</rt></ruby><ruby>加<rt>jiā</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>婚<rt>hūn</rt></ruby><ruby>礼<rt>lǐ</rt></ruby>，<ruby>婚<rt>hūn</rt></ruby><ruby>礼<rt>lǐ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liang</rt></ruby>。 <ruby>妈<rt>Mā</rt></ruby><ruby>妈<rt>ma</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>婚<rt>hūn</rt></ruby><ruby>礼<rt>lǐ</rt></ruby><ruby>记<rt>jì</rt></ruby><ruby>载<rt>zǎi</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>婚<rt>hūn</rt></ruby><ruby>纱<rt>shā</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>漂<rt>piào</rt></ruby><ruby>亮<rt>liang</rt></ruby>。</p>
 </section>
 </div>
-<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["今天老师说成语给我们听。成语“狐假虎威”说的是狐狸。狐狸很聪明，可是大家不喜欢它。妈妈参加了婚礼，婚礼很漂亮。妈妈把婚礼记载下来了，婚纱很漂亮。"];</script>
+<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["今天老师说成语给我们听。", "成语“狐假虎威”说的是狐狸。", "狐狸很聪明，可是大家不喜欢它。", "妈妈参加了婚礼，婚礼很漂亮。", "妈妈把婚礼记载下来了，婚纱很漂亮。"];</script>
 <div class="reading-Controls">
-<button class="tts-btn" onclick="playChunked('read', 0.88)">▶️ Nghe đoạn văn</button>
-<button class="tts-btn" id="chunk-pause-read" onclick="toggleChunkPause('read')">⏸️ Tạm dừng</button>
+<button class="tts-btn dlg-play-btn" id="chunk-play-read" onclick="toggleChunkPlay('read')" title="Nghe / Tạm dừng">▶️</button>
 <button class="tts-btn" onclick="restartChunked('read')">↺ Nghe lại từ đầu</button>
 <button class="tts-btn" onclick="playChunked('read', 0.6)">🐢 Nghe chậm</button>
 <button class="btn-sm" onclick="document.getElementById('read-help').classList.toggle('show')">👁️ Ẩn/Hiện Dịch nghĩa</button>
@@ -857,7 +857,7 @@ img, svg { max-width: 100%; }
 <p><b>Bài 3 (Ghép cặp):</b> 狐假虎威 = hújiǎhǔwēi · 狐狸 = húlí · 婚礼 = hūnlǐ · 婚纱 = hūnshā · 记载 = jìzǎi</p>
 <p><b>Bài 4 (Ngữ pháp):</b> 1. B — 火锅辣极了。 &nbsp;|&nbsp; 2. A — 绿豆汤清淡极了。</p>
 <p><b>Bài 5 (Đoạn văn):</b> 狐假虎威 → 狐狸 → 婚礼 → 婚纱 → 记载</p>
-<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 狐狸参加了婚礼，很高兴。<br>2. 她的婚纱很漂亮，我很羡慕她。<br>3. 他记载了狐狸和婚纱。</p>
+<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 狐狸参加了婚礼，很高兴，婚纱很漂亮极了。<br>2. 妈妈记载了婚礼，婚纱很漂亮，我很羡慕她。<br>3. 狐狸很聪明，可是大家不喜欢它，成语“狐假虎威”说的就是它。</p>
 <p><b>Bài 7 (Đọc hiểu):</b> 1. D — 成语 &nbsp;|&nbsp; 2. C — 狐狸 &nbsp;|&nbsp; 3. D — 婚礼</p>
 <p><b>Bài 8 (Nghe hội thoại):</b> 1. A — 狐假虎威 &nbsp; 2. D — 狐狸 &nbsp; 3. C — 因为老师说狐假虎威 &nbsp; 4. B — 记载了</p>
 </details>
@@ -952,15 +952,15 @@ var ITEM_INFO = {
   ],
   "scr-1": [
     "Sắp xếp câu 1",
-    "狐狸参加了婚礼，很高兴。"
+    "狐狸参加了婚礼，很高兴，婚纱很漂亮极了。"
   ],
   "scr-2": [
     "Sắp xếp câu 2",
-    "她的婚纱很漂亮，我很羡慕她。"
+    "妈妈记载了婚礼，婚纱很漂亮，我很羡慕她。"
   ],
   "scr-3": [
     "Sắp xếp câu 3",
-    "他记载了狐狸和婚纱。"
+    "狐狸很聪明，可是大家不喜欢它，成语“狐假虎威”说的就是它。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
@@ -3754,6 +3754,7 @@ function dlgSpeak(i, onDone) {
 function playDlgAllFrom(start) {
   if (!('speechSynthesis' in window)) return;
   stopDlg();
+  if (typeof stopChunkedIfPlaying === 'function') { try { stopChunkedIfPlaying(); } catch (e) {} }
   dlgPlaying = true;
   dlgPaused = false;
   dlgIdx = (typeof start === 'number') ? start : 0;
@@ -3796,7 +3797,18 @@ function toggleDlgPlay() {
 }
 function restartDlg() { playDlgAll(); updateDlgPlayBtn(); }
 function stopDlg() { dlgGen++; dlgPlaying = false; dlgPaused = false; if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); window.speechSynthesis.resume(); } updateDlgPlayBtn(); }
-function playDlgLine(i) { stopDlg(); dlgSpeak(i); }
+// Chi dung khi player khac bat dau: chi dung hoi thoai khi no DANG DOC that,
+// khong xoa vi tri da tam dung (an pause roi bam player khac, bam lai ▶️
+// van doc tiep tu cau dang do thay vi doc lai tu dau).
+function stopDlgIfPlaying() { if (dlgPlaying && !dlgPaused) stopDlg(); }
+function playDlgLine(i) {
+  var wasActive = dlgPlaying || dlgPaused;
+  stopDlg();
+  // Dang nghe do thi bam nghe tung cau: giu vi tri tiep tuc o cau vua bam
+  // (bam ▶️ se doc tiep tu cau do). Chua nghe gi thi khong doi vi tri.
+  if (wasActive) { dlgIdx = i; dlgPaused = true; updateDlgPlayBtn(); }
+  dlgSpeak(i);
+}
 function previewDlgVoice(spId) {
   for (var i = 0; i < DLG_LINES.length; i++)
     if (DLG_LINES[i].sp === spId) { playDlgLine(i); return; }
@@ -3926,12 +3938,17 @@ function stopChunked(id) {
     for (var i = 0; i < btns.length; i++) btns[i].textContent = '⏸️ Tạm dừng';
   }
 }
+// Chỉ dừng khi player khác bắt đầu: chỉ dừng player chunked khi nó ĐANG ĐỌC
+// thật, không xóa vị trí đã tạm dừng (giống stopDlgIfPlaying).
+function stopChunkedIfPlaying() {
+  if (chunkCur && chunkCur.playing && !chunkCur.paused) stopChunked();
+}
 function playChunked(id, rate, start, end) {
   if (!('speechSynthesis' in window)) return;
   var chunks = chunkChunks(id);
   if (!chunks.length) return;
   stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   rate = (typeof chunkRate !== 'undefined' && chunkRate[id]) || rate || 0.88;
   start = (typeof start === 'number') ? start : 0;
   end = (typeof end === 'number') ? end : chunks.length - 1;
@@ -4044,8 +4061,8 @@ function toggleChunkHelp(helpId, btnId) {
 // giọng chung đã chọn; đồng thời dừng mọi chuỗi chunk đang đọc dở.
 function speakRate(text, rate) {
   if (!('speechSynthesis' in window)) return;
-  stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  stopChunkedIfPlaying();
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   window.speechSynthesis.cancel();
   var u = new SpeechSynthesisUtterance(text);
   u.lang = 'zh-CN'; u.rate = rate || 0.88;
