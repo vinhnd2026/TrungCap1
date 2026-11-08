@@ -25,7 +25,7 @@ Bộ bài học Trung cấp 1: 54 ngày, mỗi ngày 5 từ mới, học từ B�
 
 ## Bổ sung (học sau khi xong 54 ngày)
 
-- **📖 Ôn tập Ngữ pháp Trung cấp 1 (40 điểm + 33 bài tập + mục Động từ ly hợp):** [Bai-Hoc-On-Ngu-Phap-TrungCap1.html](https://vinhnd2026.github.io/TrungCap1/Bai-Hoc-On-Ngu-Phap-TrungCap1.html) — pinyin hiện sẵn trong mọi ví dụ.
+- **📖 Ôn tập Ngữ pháp Trung cấp 1 (40 điểm + 33 bài tập):** [Bai-Hoc-On-Ngu-Phap-TrungCap1.html](https://vinhnd2026.github.io/TrungCap1/Bai-Hoc-On-Ngu-Phap-TrungCap1.html) — pinyin hiện sẵn trong mọi ví dụ; kèm mục Động từ ly hợp （离合动词） với ví dụ dạng tách cho từng động từ.
 - **📚 Bài Tổng Kết Trung cấp 1:** [Bai-Hoc-Tong-Ket-TrungCap1.html](https://vinhnd2026.github.io/TrungCap1/Bai-Hoc-Tong-Ket-TrungCap1.html) — flashcard toàn bộ từ, bảng từ vựng 10 bài, 8 bài tập tổng kết (62 bài tập), truyện tổng kết dùng đủ toàn bộ từ vựng.
 
 Bấm vào từng ngày bên dưới để mở thẳng trang bài học của ngày đó.
